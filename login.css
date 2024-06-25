@@ -22,7 +22,7 @@ body{
 	align-items:center;
 	
 	min-height:100vh;
-	background:url("/login.jpg")no-repeat;
+	background:url("/netflix-login-img/login.jpg")no-repeat;
 	
 	background-size:cover;
 	background-position:center;
@@ -78,7 +78,7 @@ body{
 }
 .inputbox img{
 	position:absolute;
-	rigth:30px;
+	
 	
 	transform:translate(-1300%);
 	top:14px;
@@ -112,7 +112,6 @@ a{
 	outline:none;
 	border-radius:45px;
 	font-size:18px;
-	font-weight: bold;
 	box-shadow:0 0 10px black .2;
 	font-weight:300;
 }
