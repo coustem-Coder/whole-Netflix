@@ -7,10 +7,16 @@
 html,body{
     height:100%;
     width:100%;
+    
+    
 }
+/* html,body::-webkit-scrollbar{
+    
+} */
 body{
     background-color:#181818;
     color:white;
+    
 }
 
 /* nevbar */
@@ -60,6 +66,7 @@ body{
 }
 .nevredbtn:hover{
     transform:scale(1.1);
+    border:1px solid white;
 }
 .nevsignbtn{
     background:transparent;
@@ -84,6 +91,7 @@ body{
 
 main{
     margin:0 20px;
+    
 }
 
 /* discreption */
@@ -106,6 +114,11 @@ main{
 
 .section{
     margin-top:50px;
+    overflow-x:auto;
+}
+.section::-webkit-scrollbar{
+    width:0px;
+    /* scrollbar-color: hsl(0, 0%, 67%) transparent; */
 }
 .yourNext{
     font-weight:bold;
@@ -114,10 +127,12 @@ main{
 }
 .movielist{
     display:flex;
+    height:205px;
 }
 .movieNL{
+    height:200px;
     width:300px;
-    margin-left:5px;
+    margin-left:10px;
 }
 .movieName{
     text-align:center;
@@ -125,7 +140,7 @@ main{
     font-weight:200;
 }
 .movieimg img{
-    width:290px;
+    width:300px;
     transition-duration: 0.5s;
     transition-property: all;
     transition-behavior: linear;

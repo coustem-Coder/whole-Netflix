@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link rel="stylesheet" href="404.css">
+</head>
+
+<body>
+    <div class="error">
+        <h1>404</h1>
+        <p>
+            You entered wrong Email Address Window close in <b id="timerBold"></b>
+        </p>
+    </div>
+
+    <script>
+        let tb=document.querySelector("#timerBold");
+        for (let i = 1; i <= 10; i++) {
+            setTimeout(function() {
+                if (i == 10) {
+                    window.close("404.html");
+                }
+                tb.innerHTML=11-i;
+                
+            },i*1000);
+            
+
+        }
+
+
+    </script>
+</body>
+
+</html>

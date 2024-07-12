@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Martel Sans", sans-serif;
+}
+body{
+    background-color:rgb(56, 56, 53);
+    color:red; 
+    display:flex;
+}
+h1{
+    font-size:250px;
+    color:red;
+
+}
+p{
+    font-size:20px;
+    margin-left:20px;
+}
+.error{
+    margin:100px 50px;
+}
