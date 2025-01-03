@@ -149,3 +149,10 @@ main{
     transform:scale(1.1);
     border:1px solid rgba(255,255,255,0.5);
 }
+
+@media only screen and (max-width: 1090px) {
+    body {
+      background-color: lightblue;
+    }
+    
+  }
